@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 5px solid black;
+}
+
+#msgContainer {
+  position: relative;
+  box-sizing: border-box;
+  overflow: auto;
+  width: 100%;
+  height: 87.5%;
+  border: 5px solid red;
+}
+
+#msgInputContainer {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  border: 5px solid blue;
+}
+
+#msgInput {
+  position: relative;
+  box-sizing: border-box;
+  width: 90%;
+  height: 100%;
+  font-size: 2rem;
+  border: 5px solid green;
+}
+
+#msgSubmit {
+  position: relative;
+  float: right;
+  width: 10%;
+  height: 100%;
+}
+
+#selectRoom {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.5%;
+}
+
+.msg {
+  position: relative;
+  width: 100%;
+  height: 5%;
+  font-size: 1rem;
+}

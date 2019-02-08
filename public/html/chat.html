@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../stylesheets/chat.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="../javascripts/chat.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+    <select id="selectRoom">
+      <option value="room1" name="1">Room 1</option>
+      <option value="room2" name="2">Room 2</option>
+    </select>
+    <div id="msgContainer">
+      <!-- <div class="msg" style="background-color:lightgray">Admin님이 채팅방에 들어왔습니다</div>
+      <div class="msg" style="background-color:white">Admin: 안녕하세요</div>
+      <div class="msg" style="background-color:lightgray">Admin님이 채팅방을 나갔습니다</div> -->
+    </div>
+    <div id="msgInputContainer">
+      <input type="text" id="msgInput">
+      <button id="msgSubmit">Submit</button>
+    </div>
+  </div>
+</body>
+</html>
